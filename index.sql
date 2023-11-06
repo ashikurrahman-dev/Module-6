@@ -11,7 +11,7 @@ LEFT JOIN
 GROUP BY
     c.id, c.name, c.email
 ORDER BY
-    total_orders DESC;
+    total_orders DESC; 
 
 
 -- Task-02
@@ -44,7 +44,7 @@ GROUP BY
     c.name
 ORDER BY
     total_revenue DESC;
-    
+
 
 -- Task-04
 SELECT
